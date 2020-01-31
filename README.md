@@ -1,2 +1,2 @@
 # parspal_ci
-parspal payment for codeigniter framework
+درگاه پرداخت بانکی ( پرداخت یاری ) پارس پال برای فریمورک کدایگنایتر
