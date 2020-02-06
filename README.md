@@ -4,7 +4,7 @@
 
 This library allows payment through [Parspal](https://parspal.com) for all **codeigniter** projects . 
 
-This is a single library works on **Parspal API's** . 
+This is a single library works on **Parspal standard API's** . 
 
 this library tested on **Codeigniter 3.1.11** .
 
