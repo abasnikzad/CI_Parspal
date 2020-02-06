@@ -9,7 +9,10 @@
   <ul>
     <li> فایل Parspal.php را از این بخش دانلود کنید .</li>
     <li> فایل Parspal.php را به مسیر application/libraries کپی کنید . </li>
-    <li>در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید '$this->load->library('parspal',$params);'</li>
+    <li>در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید
+
+      `$this->load->library('parspal',$params);`
+    </li>
   </ul>
 </div>
 <hr>
