@@ -2,11 +2,7 @@
 
 ![](https://github.com/abasnikzad/CI_Parspal/blob/master/parspal_ci.jpg)
 
-This library allows payment through 
-
-[**Parspal**]: https://parspal.com
-
- for all **codeigniter** projects . 
+This library allows payment through [Parspal](https://parspal.com) for all **codeigniter** projects . 
 
 This is a single library works on **Parspal API's** . 
 
