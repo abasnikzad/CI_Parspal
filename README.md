@@ -7,4 +7,7 @@
 * فایل Parspal.php را به مسیر application/libraries کپی کنید . <br>
 * در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید $this->load->library('parspal',$params); 
 
+<hr>
+<a href="https://avasam.ir">تهیه شده در وب سایت آموزشی آواسام </a> 
+
 
