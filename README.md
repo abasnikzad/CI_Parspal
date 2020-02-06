@@ -1,32 +1,42 @@
-<div dir="rtl">
- کتابخانه ی درگاه پرداخت پارسپال ( جدید ) برای فریمورک کدایگنایتر <br>
-آموزش نصب و استفاده:‌
-<hr>
-برای استفاده از این کتابخانه کافی است فایل کتابخانه Parspal.php  این ریپوزیتوری را دانلود کنید و در مسیر application/libraries کپی کنید .
-این کتابخانه در کل دو عدد تابع داره که یکی به نام request برای ارسال کاربر به صفحه ی پرداخت است و یک تابع دیگر به نام verify برای اعتبارسنجی پرداخت است . به همین سادگی !
-‌<hr>
--------------- برای نصب کردن مراحل زیر را به ترتیب طی کنید -------------
-‌<hr>
-  <ul>
-    <li> فایل Parspal.php را از این بخش دانلود کنید .</li>
-    <li> فایل Parspal.php را به مسیر application/libraries کپی کنید . </li>
-    <li>در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید
-    <div dir="ltr">
-      $this->load->library('parspal',$params);
-      </div>
-     </li>
-     <li> از تابع request برای ارسال درخواست پرداخت استفاده کنید  که یک آرایه شامل اطلاعات لازم برای پرداخت بصورت پارامتر ورود ی به این متد ارسال میشود .
-     <pre>
-        $data = array(
-            'ApiKey'=>'asdajdoasjdasd5asd8as4d',
-            'amount'=>450000,
-            // ادامه ی اطلاعات را خودتان یکی یکی اینجا ست کنید
+# **Parspal gateway library for codeigniter framework .** 
 
-          );
-     </pre>
-     </li>
-  </ul>
+This library allows payment through 
 
-<hr>
-<a href="https://avasam.ir">تهیه شده در وب سایت آموزشی آواسام </a>
-</div>
+[**Parspal**]: https://parspal.com
+
+ for all **codeigniter** projects . 
+
+This is a single library works on **Parspal API's** . 
+
+this library tested on **Codeigniter 3.1.11** .
+
+---------------------------------------------
+
+### Installation 
+
+Follow the steps below to install :‌
+
+1. Download this repository ***.zip** and unzip it.
+
+2. copy **Parspal.php** file to **application/libraries** folder .
+
+3. open your controller that you want to make payments there  and call this library using : 
+
+     `$this->load->library('parspal');`
+
+4. now for send payment request call request method from this library . example : 
+
+   `$data = array('`
+   `ApiKey'=>'d0a4f3d4d*************',`
+   `'order_id'=>null,`
+   `'amount'=>100000,`
+   `'return_url'=>'site.com/parspal/back',`
+   `'description'=>'پرداخت صورت حساب آقای ایکس',`
+   `'payer_name'=>'آقای ایکس',`
+   `'payer_mobile'=>'09350000000',`
+   `'payer_email'=>'mrx@gmail.com',`
+    
+   `reserved_id'reserved_id'=>152,`
+   `);`
+   `$this->parspal->request($data);`
+
