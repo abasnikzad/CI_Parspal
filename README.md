@@ -35,8 +35,8 @@ Follow the steps below to install :‌
    `'payer_name'=>'آقای ایکس',`
    `'payer_mobile'=>'09350000000',`
    `'payer_email'=>'mrx@gmail.com',`
-    
    `reserved_id'reserved_id'=>152,`
    `);`
+
    `$this->parspal->request($data);`
 
