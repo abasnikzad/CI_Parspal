@@ -12,8 +12,19 @@
     <li> فایل Parspal.php را به مسیر application/libraries کپی کنید . </li>
     <li>در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید
     <div dir="ltr">
-      `$this->load->library('parspal',$params);`
+      $this->load->library('parspal',$params);
       </div>
+     </li>
+     <li> از تابع request برای ارسال درخواست پرداخت استفاده کنید  که یک آرایه شامل اطلاعات لازم برای پرداخت بصورت پارامتر ورود ی به این متد ارسال میشود .
+     <div dir="ltr">
+        $data = array(
+            'ApiKey'=>'asdajdoasjdasd5asd8as4d',
+            'amount'=>450000,
+            // ادامه ی اطلاعات را خودتان یکی یکی اینجا ست کنید
+
+          );
+     </div>
+
      </li>
   </ul>
 
