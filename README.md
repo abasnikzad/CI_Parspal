@@ -80,9 +80,7 @@ Follow the steps below to install :‌
          }
    ```
 
-تهیه و تولید شده در وب سایت
-
-[آموزش]: https://avasam.ir
+[تهیه و تولید شده در وب سایت آموزش برنامه نویسی آواسام](https://avasam.ir)
 
 
 
