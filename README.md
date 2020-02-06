@@ -53,11 +53,40 @@ Follow the steps below to install :‌
    **$data** must be the information required for verify payment like this : 
 
    ```php
-     $data = array(
+     // this param's recived from parspal :
+     $status = $this->input->post('status');
+     $receipt_number = $this->input->post('receipt_number');
+     $payment_id = $this->input->post('payment_id');
+     $reserve_id = $this->input->post('reserve_id');
+     $order_id = $this->input->post('order_id');
+   
+   $data = array(
        'amount'=> $amount ,
-       'ApiKey'=>'d0a4f3d4db044365b33bfc240ce3a989',
+       'ApiKey'=>'d0a4f3d4db04436**********',
        'status'=>$status,
        'receipt_number'=>$receipt_number,
        'reserve_id'=>$reserve_id,
      );
+   $isVerified = $this->parspal->verify($data);
+         if($isVerified['is_success'])
+         {
+           //do db
+          	// redirect to success payment page
+         }else {
+   
+           // payment failed
+           echo $verify_data['message'];
+           
+         }
    ```
+
+تهیه و تولید شده در وب سایت
+
+[ آموزش برنامه نویسی آواسام]: https://avasam.ir	"سایت آموزش برنامه نویسی آواسام"
+
+
+
+
+
+-------------------------------------
+
