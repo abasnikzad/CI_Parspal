@@ -1,6 +1,6 @@
 # **Parspal gateway library for codeigniter framework .** 
 
-![](/home/wrr/Desktop/parspal_ci.jpg)
+![](https://github.com/abasnikzad/CI_Parspal/blob/master/parspal_ci.jpg)
 
 This library allows payment through 
 
