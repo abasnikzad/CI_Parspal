@@ -5,9 +5,12 @@
 ‌<hr>
 -------------- برای نصب کردن مراحل زیر را به ترتیب طی کنید -------------
 ‌<hr>
-* فایل Parspal.php را از این بخش دانلود کنید .<br>
-* فایل Parspal.php را به مسیر application/libraries کپی کنید . <br>
-* در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید $this->load->library('parspal',$params);
-
+<div dir="rtl">
+  <ul>
+    <li> فایل Parspal.php را از این بخش دانلود کنید .</li>
+    <li> فایل Parspal.php را به مسیر application/libraries کپی کنید . </li>
+    <li>در کنترلری و متدی که میخواهید پرداخت پارسال انجام پذیرد کتابخانه را به این شکل صدا بزنید $this->load->library('parspal',$params);</li>
+  </ul>
+</div>
 <hr>
 <a href="https://avasam.ir">تهیه شده در وب سایت آموزشی آواسام </a>
