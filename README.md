@@ -40,3 +40,8 @@ Follow the steps below to install :‌
 
    `$this->parspal->request($data);`
 
+
+   All **required payment information** is sent to this method as **<u>array</u>** . 
+
+5. verifty payment when back from Parspal gateway by this : 
+   `$this->parspal->verify($data);`
