@@ -82,7 +82,7 @@ Follow the steps below to install :‌
 
 تهیه و تولید شده در وب سایت
 
-[ آموزش برنامه نویسی آواسام]: https://avasam.ir	"سایت آموزش برنامه نویسی آواسام"
+[آموزش]: https://avasam.ir
 
 
 
